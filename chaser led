@@ -1,0 +1,30 @@
+int x1=12,x2=11,x3=10,x4=9,x5=8,x6=7,x7=6,x8=5;
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(11,OUTPUT);
+  pinMode(10,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(8,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(5,OUTPUT);
+}
+
+void loop()
+{
+  int i;
+  for(i=13;i>=5; i--)
+  {
+    digitalWrite(i,HIGH);
+    delay(100);
+    digitalWrite(i,LOW);
+    delay(100);
+  }
+    
+    
+  
+  
+ 
+}
